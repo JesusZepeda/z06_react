@@ -1,0 +1,8 @@
+/* CSS for footer section */
+.footer {
+    background-color:  var(--accent-color);
+    color: var(--accent-text);
+    padding: 1rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}

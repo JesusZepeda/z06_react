@@ -1,0 +1,13 @@
+/* CSS for header section */
+.header {
+    background-color: var(--accent-color);
+    color: var(--accent-text);
+    padding: 1rem 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}

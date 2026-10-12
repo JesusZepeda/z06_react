@@ -1,0 +1,54 @@
+/* CSS for app */
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* CSS for main content area */
+.main-content {
+    background-color: var(--main-color);
+    padding: 1rem;
+}
+
+/* default CSS for elements */
+button {
+    background-color: var(--accent-color);
+    color: var(--accent-text);
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 110%;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    &[type="checkbox"] {
+        width: auto;   
+        margin-left: 0.5rem;   
+    }
+}
+
+dialog[open] {
+    position: fixed;                   /* fix to viewport */
+    top: 50%;                          /* vertical center */
+    left: 50%;                         /* horizontal center */
+    transform: translate(-50%, -50%);  /* offset by half width/height */
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: white;
+    min-width: 50%;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}

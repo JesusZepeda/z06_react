@@ -1,0 +1,15 @@
+.song-form {
+    padding: 1rem;
+    text-align: left;
+    & h2 {
+        color: var(--accent-color);
+        text-align: center;
+    }
+}
+
+.song-buttons {
+    display: flex;
+    & button {
+        width: 100%;
+    }
+}

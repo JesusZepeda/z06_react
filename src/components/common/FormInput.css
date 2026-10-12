@@ -1,0 +1,12 @@
+.form-label {
+    display: block;
+}
+
+.form-input {
+    padding: 0.75rem;
+    margin-bottom: 1em;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100%
+}

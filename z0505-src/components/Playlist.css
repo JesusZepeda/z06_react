@@ -1,0 +1,30 @@
+/* CSS for play list */
+.song-list {
+    list-style: none;
+    padding: 1rem;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color:var(--list-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.list-text {
+    flex: 1;   /* take all available space */
+    text-align: center;
+}
+
+.list-button {
+    padding: 0.25rem;
+    margin: 0;
+    width: auto;
+    max-height: 2rem;
+    font-size: 90%;
+    border-radius: 4px;
+}

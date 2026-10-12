@@ -1,0 +1,24 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom properties for theme colors */
+:root {
+    --body-color: #f0f0f0;
+    --border-color: #aaa;
+    --main-color: white;
+    --accent-color: rebeccapurple;
+    --accent-text: white;
+    --list-color: #f0f0f0;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--body-color);
+}
